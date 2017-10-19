@@ -1,0 +1,127 @@
+/*BASE DES PAGES*/
+body {
+	margin: 0 auto;
+}
+.container {
+	background-image: url(../img/hero-desktop_BG.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	z-index: 1;
+	position: fixed;
+}
+
+/*GRAND TITRE DES PAGES*/
+h1 {
+	color: #f5f5f5;
+	margin-top: 15%;
+	margin-left: 5%;
+	line-height: 90px;
+	font-weight: normal;
+	font-size: 45px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*BARRE DE NAV INVISIBLE PRESENTE PARTOUT*/
+.nav {
+	background-color: transparent;
+	height: 18%;
+	z-index: 99;
+}
+
+/*logo*/
+.logo {
+	width: 150px;
+	height: 100%;
+	background-image: url(../img/secure-en-90.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: transparent;
+	background-size: contain;
+	border: 0px;
+	margin-left: 6%;
+}
+
+/*Soutenir*/
+.soutient {
+	width: 230px;
+	height: 100%;
+	background-color: transparent;
+	color: #f5f5f5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	border: 0px;
+	margin-left: 45%;
+	display: inline-flex;
+	padding-bottom: 0px;
+}
+
+.croix {
+	background-color: transparent;
+	width: 70px;
+	height: 80%;
+	border: 0px;
+	display: inline-block;
+}
+
+.croix1 {
+	width: 25px;
+	height: 3%;
+	background-color: #f5f5f5;
+	transform: rotate(-25deg);
+	margin-bottom: 20%;
+	margin-left: 20%;
+}
+
+.croix1::before {
+	content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    float: left;
+    margin-left: -30%;
+    margin-top: -15%;
+}
+
+.croix1::after {
+	content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    float: right;
+    margin-right: 0%;
+    margin-top: -10%;
+}
+
+.croix2 {
+	width: 25px;
+	height: 3%;
+	background-color: #f5f5f5;
+	transform: rotate(25deg);
+	margin-left: 20%;
+}
+
+.croix2::after {
+	content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    float: right;
+    margin-right: 0%;
+    margin-top: -10%;
+}
+
+/*Chargement + bouton pour afficher le menu*/
+
+
+
+
+
