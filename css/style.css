@@ -202,7 +202,7 @@ h1 {
 	/*transform: translateX(420px);*/
 	display: table;
 	border-spacing: 30px 0px;
-	border-bottom: 5px black solid;
+	border-bottom: 5px #2c3e50 solid;
 }
 
 .ligne {
@@ -213,6 +213,7 @@ h1 {
 	/*border-bottom: 2px grey solid;*/
 }
 
+/*Le rond pour indiquer le numéro de page*/
 .rond {
 	display: table-cell;
 	width: 20%;
@@ -224,7 +225,7 @@ h1 {
 	height: 60px; 
 	background: transparent; 
 	border-radius: 50px;
-	border: 2px black solid;
+	border: 2px #2c3e50 solid;
 	margin-top: 18px;
 	margin-left: 3%;
 	cursor: pointer;
@@ -235,26 +236,30 @@ h1 {
 	height: 50px; 
 	background: transparent; 
 	border-radius: 50px;
-	border: 5px grey solid;
+	border: 5px #bdc3c7 solid;
 	opacity: 0.5;
 	cursor: pointer;	
 }
 
 .chiffre {
-	color: black;
+	color: #2c3e50;
 	margin-top: -60%;
 	margin-left: 44%;
 	font-size: 12px;
 }
 
+/*texte*/
 .quoi {
 	font-size: 23px;
+	color: #2c3e50;
 	width: 300px;
 	display: table-cell;
 	vertical-align: middle;
+	padding-left: 5%;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/*La fourche des réseaux sociaux*/
 .triolet {
 	background-color: transparent;
 	width: 60px;
@@ -318,6 +323,58 @@ h1 {
     margin-top: -10%;
 }
 
+/*Pour le 6ème ligne qui est différente*/
+.donnation {
+	color: #2c3e50;
+	width: 300px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 5%;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
 
+.don {
+	font-size: 24px;
+	padding: 0px;
+}
+.aide {
+	padding: 0px;
+	margin-top: -15%;
+}
 
+.flecheSuivant {
+	background-color: transparent;
+	width: 60px;
+	height: 80%;
+	border: 0px;	
+	margin-top: 7px;
+	cursor: pointer;
+	vertical-align: middle;
+	margin-top: 35%;
+}
 
+.droite1 {
+	width: 22px;
+	height: 5%;
+	background-color: #7f8c8d;
+	transform: rotate(40deg);
+	margin-bottom: 18%;
+	margin-left: 20%;
+}
+
+.droite2 {
+	width: 22px;
+	height: 5%;
+	background-color: #7f8c8d;
+	margin-left: 20%;
+	transform: rotate(-42deg);
+}
+
+.logoBleu {
+	display: table-cell;
+	width: 20%;
+	background-image: url('../img/logoBleu.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
