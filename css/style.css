@@ -199,18 +199,31 @@ h1 {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	/*transform: translateX(420px);*/
 	display: table;
+	display: none;
 	border-spacing: 30px 0px;
-	border-bottom: 5px #2c3e50 solid;
 }
 
 .ligne {
 	display: table-row;
 	width: 100%;
-	/*height: 16.66%;*/
 	height: 14%;
-	/*border-bottom: 2px grey solid;*/
+}
+
+.ligne::after {
+	content: "";
+	background-color: #bdc3c7;
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	margin-top: 105px;
+}
+/*La ligne 6 ne doit pas avoir d'after*/
+.ligneLogo {
+	display: table-row;
+	width: 100%;
+	height: 14%;
 }
 
 /*Le rond pour indiquer le numéro de page*/
@@ -236,12 +249,11 @@ h1 {
 }
 
 .rond2 {
-	width: 50px; 
-	height: 50px; 
+	width: 48px; 
+	height: 48px; 
 	background: transparent; 
 	border-radius: 50px;
 	border: 5px #bdc3c7 solid;
-	opacity: 0.5;
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
@@ -251,6 +263,7 @@ h1 {
 .chiffre {
 	color: #2c3e50;
 	font-size: 12px;
+	font-weight: bold;
 }
 
 /*texte*/
@@ -383,5 +396,14 @@ h1 {
 	background-repeat: no-repeat;
 	background-size: contain;
 	transform: scale(2);
+}
+
+/*Close Slidebar essai*/
+.closeSlidebar {
+	background-color: transparent;
+	width: 68%;
+	height: 65%;
+	position: absolute;
+	z-index: 98;	
 }
 
